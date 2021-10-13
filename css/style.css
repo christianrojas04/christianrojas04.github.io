@@ -794,6 +794,11 @@ footer .footer-network i:hover{
     .about .about-content .row2{ 
         margin-left: 100px; 
     }
+
+    
+    footer .footer-content{
+        transform: scale(0.7); 
+    }
 }
 
 @media (max-width: 500px) {
@@ -835,5 +840,6 @@ footer .footer-network i:hover{
         width: 150px;
         height: 50px; 
     }
+
 }
 
