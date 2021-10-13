@@ -8,8 +8,9 @@
     text-decoration: none;
 }
 html{
-    scroll-behavior: smooth;
-}
+    scroll-behavior: smooth; 
+} 
+
 
 /* Colores globales */
 :root {
@@ -37,10 +38,10 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 100px 0;
+    padding: 100px 0;  
 }
 .max-width{
-    max-width: 1300px;
+    max-width: 1300px; 
     padding: 0 80px;
     margin: auto;
 }
@@ -372,7 +373,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "Ing. de sistemas";
+    content: "Tecnologías";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -824,4 +825,15 @@ footer .footer-network i:hover{
         font-size: 23px;
         line-height: 38px;
     }
+
+    .sklogo img{
+        width: 50px;
+        height: 50px;
+    }
+ 
+    .sklogoAncho img{
+        width: 150px;
+        height: 50px; 
+    }
 }
+
