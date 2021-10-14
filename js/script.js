@@ -86,7 +86,7 @@ sr.reveal('.home-content',{});
 sr.reveal('.footer-network-icon',{interval: 200}); 
   
 /*Scroll Otros*/
-sr.reveal('.about-content',{});  
+sr.reveal('.about-content',{distance: '100px' , duration: 3500});  
 sr.reveal('.serv-content',{});    
 
 /*Scroll Skins*/
